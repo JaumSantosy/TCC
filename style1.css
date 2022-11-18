@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Zerando CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fundo-tela */
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(/imgcd.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+/* Menu - Header - NavBar */
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(22, 22, 22, 0.2);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(/imgcd.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+::-webkit-scrollbar {
+  width: 10px;}
+
+  ::-webkit-scrollbar-track {
+  background: #0e1dc7;
+  border-radius: 30px}
+
+  ::-webkit-scrollbar-thumb {background:black;
+  border-radius: 30px}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(251, 255, 0);
+    transition: all 1.5s ease; 
+}
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
+}
+
+/* Centro - Conteudo Principal */
+
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+	background-color: #2b2d42;
+}
+
+h1#legal {
+	position: absolute;
+	width: 459px;
+	height: 116px;
+	left: 731px;
+	top: 80px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 96px;
+	line-height: 116px;
+	
+	color: #d80032;
+}
+
+h1#daora {
+	position: absolute;
+width: 1389px;
+height: 74px;
+left: 266px;
+top: 263px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #EDF2f4;
+
+}
+
+.quadrado {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 112px;
+top: 559px;
+
+background: #EF233C;
+  }
+
+  .quadrado2 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 471px;
+top: 559px;
+
+background: #EF233C;
+  }
+  
+  .quadrado3 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 830px;
+top: 559px;
+
+background: #EF233C;
+}
+
+.quadrado4 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 1189px;
+top: 559px;
+
+background: #EF233C;
+}
+
+.quadrado5 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 1548px;
+top: 559px;
+
+background: #EF233C;
+
+}
+
+.quadrado6 {
+	position: absolute;
+	width: 248px;
+	height: 250px;
+	left: 118px;
+	top: 564px;
+	
+	background: #000000;
+
+}
+
+.quadrado7 {
+	position: absolute;
+width: 248px;
+height: 250px;
+left: 477px;
+top: 564px;
+
+background: #000000;
+
+}
+
+.quadrado8 {
+	position: absolute;
+	width: 248px;
+	height: 250px;
+	left: 836px;
+	top: 564px;
+	
+	background: #000000;
+
+}
+
+.quadrado9 {
+	position: absolute;
+	width: 248px;
+	height: 250px;
+	left: 1195px;
+	top: 564px;
+	
+	background: #000000;
+
+}
+
+.quadrado10 {
+	position: absolute;
+	width: 248px;
+	height: 250px;
+	left: 1554px;
+	top: 564px;
+	
+	background: #000000;
+
+}
+
+h1#nicolas {
+	position: absolute;
+	width: 111px;
+	height: 39px;
+	left: 187px;
+	top: 839px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+	
+	
+	color: #FFFFFF;
+	
+}
+
+h1#joao {
+	position: absolute;
+	width: 74px;
+	height: 39px;
+	left: 1641px;
+	top: 839px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+	
+	
+	color: #FFFFFF;
+}
+
+h1#leandro {
+	position: absolute;
+	width: 124px;
+	height: 39px;
+	left: 1257px;
+	top: 839px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+	
+	
+	color: #FFFFFF;
+	
+}
+
+h1#paulo {
+	position: absolute;
+	width: 84px;
+	height: 39px;
+	left: 559px;
+	top: 834px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+	
+	
+	color: #FFFFFF;
+	
+}
+
+h1#cristopher {
+	position: absolute;
+	width: 159px;
+	height: 39px;
+	left: 881px;
+	top: 842px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+	
+	
+	color: #FFFFFF;
+	
+}
